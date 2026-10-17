@@ -1,0 +1,21 @@
+{
+  "version": "2",
+  "plugins": [
+    {
+      "id": "suno-by-ace",
+      "displayName": "Suno by Ace Data Cloud",
+      "version": "0.1.0",
+      "description": "Suno music generation and same-task results in Kimi Code, provided by Ace Data Cloud.",
+      "homepage": "https://github.com/AceDataCloud/SunoKimiCode",
+      "keywords": [
+        "suno",
+        "suno",
+        "music",
+        "music generation",
+        "kimi-code",
+        "acedatacloud"
+      ],
+      "source": "https://github.com/AceDataCloud/SunoKimiCode/tree/codex/native-kimi-plugin-20261018"
+    }
+  ]
+}

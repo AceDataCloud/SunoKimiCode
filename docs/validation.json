@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-10-18 Asia/Shanghai",
+  "host_version": "2.2.0",
+  "native_local_install": true,
+  "native_manifest_accepted": true,
+  "mock_only": true,
+  "real_token_used": false,
+  "billable_requests": 0,
+  "mcp_tool": "suno_get_task",
+  "same_task_id": "EXISTING_LOCAL_TASK",
+  "mock_queries": 2,
+  "mock_model_turns": 3,
+  "passed": true,
+  "limits": "Source manifest installed through actual /plugins command. Runtime used the installed copy with only endpoint redirected to a local fake MCP; no hosted auth, real media, final bill or official listing validated."
+}
