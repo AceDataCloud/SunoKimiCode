@@ -11,10 +11,10 @@ A standalone **Suno** plugin for Kimi Code’s native plugin manager. Install on
 Requires Kimi Code 2.2.0 or newer. In Kimi’s terminal interface:
 
 ```text
-/plugins install https://github.com/AceDataCloud/SunoKimiCode/tree/codex/native-kimi-plugin-20261018
+/plugins install https://github.com/AceDataCloud/SunoKimiCode/releases/tag/v0.1.0
 ```
 
-This is a review-branch install, not an official marketplace listing or stable release. Inspect the source and Kimi’s third-party trust prompt before selecting **Trust and install**. Installation copies this plugin into your user plugin directory. Keep existing plugins; do not replace global configuration. Once a reviewed release exists, use its pinned tag.
+This installs the pinned **v0.1.0** GitHub release. It is independently distributed by Ace Data Cloud and is not listed in Kimi’s Official or Curated catalog. Inspect the source and Kimi’s third-party trust prompt before selecting **Trust and install**. Installation copies this plugin into your user plugin directory. Keep existing plugins; do not replace global configuration.
 
 Kimi’s [official plugin guide](https://moonshotai.github.io/kimi-code/zh/customization/plugins) describes `/plugins`, **Custom**, installation and `/reload`. The official/curated catalog does not currently list this plugin.
 

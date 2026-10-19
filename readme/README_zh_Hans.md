@@ -1,16 +1,16 @@
 # Kimi Code 的 Suno by Ace Data Cloud 插件
 
-独立安装Suno音乐服务，不改变聊天模型。由 **Ace Data Cloud** 提供，非Suno或Moonshot官方产品。尚未进入Kimi官方/精选目录；以下安装针对待审分支。
+独立安装Suno音乐服务，不改变聊天模型。由 **Ace Data Cloud** 提供，非Suno或Moonshot官方产品。独立发布v0.1.0；尚未进入Kimi官方/精选目录。
 
 ## 1. 在Kimi安装
 
 在Kimi Code 2.2.0或更新版本的终端输入：
 
 ```text
-/plugins install https://github.com/AceDataCloud/SunoKimiCode/tree/codex/native-kimi-plugin-20261018
+/plugins install https://github.com/AceDataCloud/SunoKimiCode/releases/tag/v0.1.0
 ```
 
-查看源码和第三方信任提示后自行选择Trust and install；随后`/reload`或`/new`。这不是官方上架证明。
+此命令安装固定v0.1.0发行版。查看源码和第三方信任提示后自行选择Trust and install；随后`/reload`或`/new`。独立发行不等于Kimi官方上架。
 
 ## 2. 注册并获取Token
 

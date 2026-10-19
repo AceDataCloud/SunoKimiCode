@@ -23,7 +23,7 @@ class PluginContract(unittest.TestCase):
         c = json.loads((ROOT / 'docs/marketplace-candidate.json').read_text())
         self.assertEqual(len(c['plugins']), 1)
         self.assertNotIn('tier', c['plugins'][0])
-        self.assertIn('/tree/codex/native-kimi-plugin-20261018', c['plugins'][0]['source'])
+        self.assertEqual(c['plugins'][0]['source'], 'https://github.com/AceDataCloud/SunoKimiCode/releases/tag/v0.1.0')
 
     def test_onboarding_links_and_assets(self):
         m = json.loads((ROOT / 'kimi.plugin.json').read_text())
