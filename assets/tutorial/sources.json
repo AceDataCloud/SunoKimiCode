@@ -1,0 +1,28 @@
+{
+  "collected_on": "2026-10-18",
+  "images": [
+    {
+      "file": "get-api-key-en.png",
+      "source_url": "https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/get-api-key-en.png",
+      "date": "2026-10-18 downloaded; capture date unspecified",
+      "limits": "Existing Ace account UI screenshot with redacted credentials; create-key name says Dify tutorial, choose a Kimi-specific name instead."
+    },
+    {
+      "file": "create-api-key-en.png",
+      "source_url": "https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/create-api-key-en.png",
+      "date": "2026-10-18 downloaded; capture date unspecified",
+      "limits": "Existing Ace account UI screenshot with redacted credentials; create-key name says Dify tutorial, choose a Kimi-specific name instead."
+    }
+  ],
+  "kimi_reference": {
+    "file": "kimi-provider-reference.png",
+    "source": "Kimi Code official provider-manager.jpg, edited by coordinator 2026-10-17",
+    "visible_version": "0.39.1",
+    "limits": "Historical model-provider reference only, not this media plugin, not a successful Ace run."
+  },
+  "service_icon": {
+    "file": "assets/service-icon.png",
+    "source_url": "https://raw.githubusercontent.com/AceDataCloud/SunoMCP/main/jetbrains/src/main/resources/META-INF/pluginIcon.png",
+    "limits": "Existing service integration icon, not an official marketplace badge; Kimi manifest has no documented icon field."
+  }
+}

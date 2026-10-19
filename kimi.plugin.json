@@ -1,0 +1,42 @@
+{
+  "name": "suno-by-ace",
+  "version": "0.1.0",
+  "description": "Suno music generation and same-task results in Kimi Code, provided by Ace Data Cloud.",
+  "keywords": [
+    "suno",
+    "suno",
+    "music",
+    "music generation",
+    "kimi-code",
+    "acedatacloud"
+  ],
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/SunoKimiCode",
+  "license": "MIT",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "mcpServers": {
+    "suno": {
+      "transport": "http",
+      "url": "https://suno.mcp.acedata.cloud/mcp",
+      "bearerTokenEnvVar": "ACEDATACLOUD_API_TOKEN",
+      "enabledTools": [
+        "suno_list_models",
+        "suno_list_actions",
+        "suno_generate_music",
+        "suno_generate_custom_music",
+        "suno_get_task"
+      ]
+    }
+  },
+  "interface": {
+    "displayName": "Suno by Ace Data Cloud",
+    "shortDescription": "Suno music tools and same-task results",
+    "longDescription": "Independent Suno integration maintained by Ace Data Cloud. Bring your own Ace API Token. Generation and editing may incur charges; query an existing task without resubmitting it. Not an official Suno or Moonshot integration.",
+    "developerName": "Ace Data Cloud",
+    "websiteURL": "https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_key"
+  }
+}
