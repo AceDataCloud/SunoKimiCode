@@ -14,7 +14,7 @@
 
 ## 2. 注册并获取Token
 
-打开[Ace应用列表](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_key_zh)，先注册或登录。找到General application，没有则Initialize General Application。检查Suno权限、余额与[当前价格](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_pricing_zh)。复制API Key，或Manage Keys → Create，创建名为Kimi Code Suno的专用Token。检查过期时间、用量限制和Allowed APIs；按需允许/suno/audios, /suno/tasks。任务查询权限不等于生成权限。
+打开[Ace应用列表](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen)，先注册或登录。找到General application，没有则Initialize General Application。检查Suno权限、余额与[当前价格](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen)。复制API Key，或Manage Keys → Create，创建名为Kimi Code Suno的专用Token。检查过期时间、用量限制和Allowed APIs；按需允许/suno/audios, /suno/tasks。任务查询权限不等于生成权限。
 
 ![复制已遮盖的Key或进入Manage Keys](../assets/tutorial/get-api-key-en.png)
 
@@ -42,4 +42,4 @@ PowerShell 7.1+使用`$env:ACEDATACLOUD_API_TOKEN = Read-Host -MaskInput`后运�
 
 401/403检查Key和权限，429等待降并发，失败/超时先查旧任务。不要自动付费重试或擅自替换模型。素材调用和编排LLM可能分别计费；安装本身不代表免费生成。本仓不声称已完成真实媒体、终态账单或营收验收。
 
-现有托管端点`https://suno.mcp.acedata.cloud/mcp`，复用[SunoMCP](https://github.com/AceDataCloud/SunoMCP)，不复制服务实现。详见[英文完整指南](../README.md)、[来源](../assets/tutorial/sources.json)与[服务文档](https://platform.acedata.cloud/documents/suno-audios?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_docs_zh)。
+现有托管端点`https://suno.mcp.acedata.cloud/mcp`，复用[SunoMCP](https://github.com/AceDataCloud/SunoMCP)，不复制服务实现。详见[英文完整指南](../README.md)、[来源](../assets/tutorial/sources.json)与[服务文档](https://platform.acedata.cloud/documents/suno-audios?utm_source=github&utm_medium=referral&utm_campaign=evergreen)。

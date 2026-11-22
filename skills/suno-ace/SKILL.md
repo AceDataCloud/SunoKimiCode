@@ -15,4 +15,4 @@ Save the exact returned task_id. Use `suno_get_task` to query that same task, ob
 
 If the user supplies an existing task ID, query it directly without generating. If a request returns 401/403, explain key/scope or moderation errors without requesting secrets; for 429 wait and reduce concurrency; for 5xx/timeout inspect the existing task before any separately approved resubmission.
 
-Setup and current service information: https://platform.acedata.cloud/documents/suno-audios?utm_source=agent_skill&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_docs
+Setup and current service information: https://platform.acedata.cloud/documents/suno-audios?utm_source=agent_skill&utm_medium=referral&utm_campaign=evergreen

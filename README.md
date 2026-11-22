@@ -4,7 +4,7 @@
 
 A standalone **Suno** plugin for Kimi Code’s native plugin manager. Install only this service, use your own Ace API Token, and retrieve the exact same task until its final result is ready. Maintained by **Ace Data Cloud**, not an official Suno or Moonshot product. It does not replace your chat model.
 
-[简体中文](readme/README_zh_Hans.md) · [Current pricing](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_pricing) · [Service documentation](https://platform.acedata.cloud/documents/suno-audios?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_docs)
+[简体中文](readme/README_zh_Hans.md) · [Current pricing](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen) · [Service documentation](https://platform.acedata.cloud/documents/suno-audios?utm_source=github&utm_medium=referral&utm_campaign=evergreen)
 
 ## 1. Install in Kimi Code
 
@@ -20,8 +20,8 @@ Kimi’s [official plugin guide](https://moonshotai.github.io/kimi-code/zh/custo
 
 ## 2. Register, sign in and obtain the right token
 
-1. Open [Ace Data Cloud → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_key). Register or sign in first.
-2. Find **General application**; choose **Initialize General Application** if needed. Check Suno access, available balance and [current prices](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=suno_kimi_readme_price_check). A dedicated application is limited to its service; access to task queries does not authorize generation.
+1. Open [Ace Data Cloud → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen). Register or sign in first.
+2. Find **General application**; choose **Initialize General Application** if needed. Check Suno access, available balance and [current prices](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen). A dedicated application is limited to its service; access to task queries does not authorize generation.
 3. Copy the API Key on the application card, or choose **Manage Keys → Create** for a separately revocable token named `Kimi Code Suno`.
 4. Review expiration, usage limits and **Allowed APIs**. If restricted, allow the operations you need: `/suno/audios`, `/suno/tasks`. Only use API paths available to your account and current service contract.
 
