@@ -28,7 +28,7 @@ class PluginContract(unittest.TestCase):
     def test_onboarding_links_and_assets(self):
         m = json.loads((ROOT / 'kimi.plugin.json').read_text())
         q = parse_qs(urlparse(m['interface']['websiteURL']).query)
-        self.assertEqual(set(q), {'utm_source','utm_medium','utm_campaign','utm_content'})
+        self.assertEqual(set(q), {'utm_source', 'utm_medium', 'utm_campaign'})
         self.assertEqual(q['utm_source'], ['github'])
         self.assertEqual(q['utm_medium'], ['referral'])
         for f in ['get-api-key-en.png','create-api-key-en.png']:
