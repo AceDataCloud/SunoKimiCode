@@ -14,7 +14,7 @@
 
 ## 2. 注册并获取Token
 
-打开[Ace应用列表](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen)，先注册或登录。找到General application，没有则Initialize General Application。检查Suno权限、余额与[当前价格](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen)。复制API Key，或Manage Keys → Create，创建名为Kimi Code Suno的专用Token。检查过期时间、用量限制和Allowed APIs；按需允许/suno/audios, /suno/tasks。任务查询权限不等于生成权限。
+打开[Ace应用列表](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen)，先注册或登录。找到General application。检查Suno权限、余额与[当前价格](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen)。复制API Key，或Manage Keys → Create，创建名为Kimi Code Suno的专用Token。检查过期时间、用量限制和Allowed APIs；按需允许/suno/audios, /suno/tasks。任务查询权限不等于生成权限。
 
 ![复制已遮盖的Key或进入Manage Keys](../assets/tutorial/get-api-key-en.png)
 
