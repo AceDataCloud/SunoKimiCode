@@ -21,7 +21,7 @@ Kimi’s [official plugin guide](https://moonshotai.github.io/kimi-code/zh/custo
 ## 2. Register, sign in and obtain the right token
 
 1. Open [Ace Data Cloud → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen). Register or sign in first.
-2. Find **General application**; choose **Initialize General Application** if needed. Check Suno access, available balance and [current prices](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen). A dedicated application is limited to its service; access to task queries does not authorize generation.
+2. Find **General application**. Check Suno access, available balance and [current prices](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen). A dedicated application is limited to its service; access to task queries does not authorize generation.
 3. Copy the API Key on the application card, or choose **Manage Keys → Create** for a separately revocable token named `Kimi Code Suno`.
 4. Review expiration, usage limits and **Allowed APIs**. If restricted, allow the operations you need: `/suno/audios`, `/suno/tasks`. Only use API paths available to your account and current service contract.
 
